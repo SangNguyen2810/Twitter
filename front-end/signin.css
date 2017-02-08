@@ -1,0 +1,157 @@
+
+.signIn{
+    background: #070605;
+    height: 600px;
+
+}
+.header{
+    color: white;
+    line-height: 1.25em;
+    font-size: 70px;
+    font-family: myLatoLight;
+    font-weight: bold;
+    opacity: 0.9;
+}
+.memberAccess{
+    color: white;
+    font-family: myLatoLight;
+    font-weight: bold;
+
+    margin-top: 5%;
+
+}
+.formInput{
+    marign:0px !important;
+    padding:0px !important;
+}
+.inputGroup{
+    width: 100%;
+}
+#inputEmail{
+    width: 90%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    background-color: #292929;
+    border: 0px;
+}
+#inputPassword{
+    width: 90%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    background-color: #292929;
+    border: 0px;
+}
+.inputGroup{
+    margin-top: 5%;
+}
+.buttonSignIn{
+    background-color: #F05A41;
+    color: white;
+    font-family: myLatoRegular;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    border: 2px solid;
+    font-size: 14px;
+    float: left;
+    width: 42%;
+}
+.buttonSignIn:hover{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+#forgetPassword{
+    font-size: 16px;
+    margin-left: 5%;
+    margin-top: 2%;
+    float: left;
+    font-family: myLatoRegular;
+    font-weight: bold;
+    color: #9b9b9b;
+    text-decoration: underline;
+}
+#forgetPassword:hover{
+    color: #F05A41;
+
+}
+
+.otherMediaGroup{
+    clear:both;
+    margin-top: 25%;
+}
+.buttonFb{
+    background-color: #2e41ca;
+    color: white;
+    font-family: myLatoRegular;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    border: 0px;
+    font-size: 14px;
+    float: left;
+    width: 42%;
+}
+.buttonTw{
+    background-color: #2D7DDC;
+    color: white;
+    font-family: myLatoRegular;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-left: 5%;
+    border: 0px;
+    font-size: 14px;
+    float: left;
+    width: 42%;
+}
+.buttonTw:hover{
+    color: #2D7DDC;
+    background-color: white;
+}
+.buttonFb:hover{
+    color: #2e41ca;
+    background-color: white;
+}
+.joinDistiller{
+    color: white;
+    font-family: myLatoLight;
+    font-weight: bold;
+    margin-top: 5%;
+
+}
+.vertical-line{
+    margin-top: 120%;
+    width: 3px; /* Line width */
+    background-color: white; /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+    float: left;
+    height: 330px;
+    padding: 0px !important;
+}
+.line{
+    padding: 0px !important;
+}
+#otherTitle{
+    color: white;
+    font-family: myLatoRegular;
+}
+@font-face {
+    font-family: myLatoRegular;
+    src: url(Lato-Regular.ttf);
+}
+@font-face {
+    font-family: myLatoLight;
+    src: url(Lato-Light.ttf);
+}
