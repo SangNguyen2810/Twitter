@@ -19,8 +19,9 @@ header {
 
 #nav ul {
 	list-style-type: none;
-	float: right;
+	float: left;
 	text-transform: uppercase;
+
 }
 
 #nav li {
@@ -47,24 +48,27 @@ header {
 #logo {
 	float: left;
 	height: 65px;
+	margin-left: 5%;
 }
 
 #logo a img {
 	max-height: 100%;
-	max-width: auto;
 }
 
 #categories {
 	background-color: #474747;
 	height: 45px;
 	border: 1px solid #9b9b9b;
+	text-align: center;
 }
 
 #categories ul {
 	list-style-type: none;
 	line-height: 45px;
-	margin: 0px auto;
-
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	*display: inline;
 }
 
 #categories li {
