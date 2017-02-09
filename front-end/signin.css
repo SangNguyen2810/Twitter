@@ -21,7 +21,7 @@
 
 }
 .formInput{
-    marign:0px !important;
+    margin:0px !important;
     padding:0px !important;
 }
 .inputGroup{
@@ -91,6 +91,11 @@
     clear:both;
     margin-top: 25%;
 }
+
+.inputGroup input:focus, .inputGroupEmail input:focus{
+    outline:0px !important;
+}
+
 .buttonFb{
     background-color: #2e41ca;
     color: white;
@@ -161,6 +166,8 @@
     margin-top: 5%;
     padding-left: 5%;
     font-size: 18px;
+    list-style: none;
+    padding: 0px;
 }
 .createButton{
     background-color: #070605;
@@ -196,3 +203,4 @@
     font-family: myLatoLight;
     src: url(Lato-Light.ttf);
 }
+
