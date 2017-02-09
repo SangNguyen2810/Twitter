@@ -17,7 +17,7 @@
     font-family: myLatoLight;
     font-weight: bold;
 
-    margin-top: 5%;
+    margin-top: 12%;
 
 }
 .formInput{
@@ -28,38 +28,44 @@
     width: 100%;
 }
 #inputEmail{
-    width: 90%;
+    width: 74%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     padding-left: 4%;
     background-color: #292929;
     border: 0px;
+    color: #9b9b9b;
 }
+
 #inputPassword{
-    width: 90%;
+    width: 74%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     padding-left: 4%;
     background-color: #292929;
     border: 0px;
+    color: #9b9b9b;
 }
 .inputGroup{
     margin-top: 5%;
+}
+.inputGroupEmail{
+    margin-top: 8%;
 }
 .buttonSignIn{
     background-color: #F05A41;
     color: white;
     font-family: myLatoRegular;
     font-weight: bold;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     text-align: center;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 6%;
+    padding-right: 6%;
     border: 2px solid;
     font-size: 14px;
     float: left;
-    width: 42%;
+    width: 35%;
 }
 .buttonSignIn:hover{
     color: black;
@@ -88,33 +94,33 @@
 .buttonFb{
     background-color: #2e41ca;
     color: white;
-    font-family: myLatoRegular;
+    font-family: Arial;
     font-weight: bold;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     text-align: center;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 2%;
+    padding-right: 2%;
     border: 0px;
     font-size: 14px;
     float: left;
-    width: 42%;
+    width: 35%;
 }
 .buttonTw{
     background-color: #2D7DDC;
     color: white;
-    font-family: myLatoRegular;
+    font-family: Arial;
     font-weight: bold;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     text-align: center;
-    padding-left: 12%;
-    padding-right: 12%;
-    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 3%;
     border: 0px;
     font-size: 14px;
     float: left;
-    width: 42%;
+    width: 35%;
 }
 .buttonTw:hover{
     color: #2D7DDC;
@@ -128,7 +134,8 @@
     color: white;
     font-family: myLatoLight;
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 50%;
+    font-size: 18px;
 
 }
 .vertical-line{
@@ -140,6 +147,40 @@
     height: 330px;
     padding: 0px !important;
 }
+.createAccount{
+    color: white;
+    font-family: myLato;
+    font-weight: bold;
+    margin-top: 8%;
+    font-size: 18px;
+}
+.listAdvantage{
+    color: white;
+    font-family: myLato;
+    font-weight: bold;
+    margin-top: 5%;
+    padding-left: 5%;
+    font-size: 18px;
+}
+.createButton{
+    background-color: #070605;
+    color: white;
+    font-family: myLatoRegular;
+    font-weight: bold;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    margin-top: 4%;
+    border: 2px solid;
+    font-size: 14px;
+    float: left;
+    width: 70%;
+}
+.createButton:hover{
+    color: #F05A41;
+    border: 2px #F05A41 solid;
+}
+
 .line{
     padding: 0px !important;
 }
