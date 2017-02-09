@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Trang web review">
     <title>Rating and Reviews</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <header>
+            <!-- <div class="row">
             <div id="logo">
                 <a><img src='logo.png'></a>
             </div>
@@ -28,23 +32,64 @@
                     <li><i class="fa fa-search"></i></li>
                     <li><i class="fa fa-user-plus"></i></li>
                 </ul>
-            </div>
+            </div> -->
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#verticalNav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#top" id="logo">
+                            <img src="logo.png">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="verticalNav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#recommend">Recommend</a></li>
+                            <li><a href="#learn">Learn</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#signin">Sign In</a></li>
+                            <li>
+                                <a>
+                                    <input type="button" value="Register">
+                                </a>
+                            </li>
+                            <li><a><i class="fa fa-search"></i></a></li>
+                            <li><a><i class="fa fa-user-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
-        <div id="categories">
-        	<ul>
-        		<li><a>All Spirits</a></li>
-                <li><a>Whiskey</a></li>
-                <li><a>Tequila/Mezcal</a></li>
-                <li><a>Rum</a></li>
-                <li><a>Brandy</a></li>
-                <li><a>Gin</a></li>
-        	</ul>
+        <div container-fluid>
+        	<div id="verticalCategory" class="visible-xs">
+                <a><div>All Spirits</div></a>
+                <a><div>Whiskey</div></a>
+                <a><div>Tequila/Mezcal</div></a>
+                <a><div>Rum</div></a>
+                <a><div>Brandy</div></a>
+                <a><div>Gin</div></a>
+            </div>
+
+            <div id="horizontalCategory" class="hidden-xs">
+                <ul>
+                    <li><a>All Spirits</a></li>
+                    <li><a>Whiskey</a></li>
+                    <li><a>Tequila/Mezcal</a></li>
+                    <li><a>Rum</a></li>
+                    <li><a>Brandy</a></li>
+                    <li><a>Gin</a></li>
+                </ul>
+            </div>
         </div>
-        <div id="newsBackground">
+        <!-- <div id="newsBackground">
         	<div id="news">
         		
         	</div>
-        </div>
+        </div> -->
     </main>
 </body>
 
