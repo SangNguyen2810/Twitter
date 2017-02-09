@@ -1,0 +1,151 @@
+.register  {
+    background: #070605;
+    height: 150vh;
+
+}
+.header{
+    color: white;
+    line-height: 1.25em;
+    font-size: 70px;
+    font-family: myLatoLight;
+    font-weight: bold;
+    opacity: 0.9;
+
+}
+.buttonFb{
+    background-color: #2e41ca;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 0px;
+    font-size: 14px;
+    float: left;
+    width: 90%;
+    margin-left: 1.5%;
+    margin-top: 8%;
+}
+.buttonTw{
+    background-color: #2D7DDC;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 3%;
+    border: 0px;
+    font-size: 15px;
+    float: left;
+    width: 90%;
+    margin-left: 1.5%;
+    margin-top: 8%;
+}
+.buttonTw:hover{
+    color: #2D7DDC;
+    background-color: white;
+}
+.buttonFb:hover{
+    color: #2e41ca;
+    background-color: white;
+}
+.anotherAcc{
+    color: white;
+    line-height: 1.25em;
+    margin-top: 33.5%;
+    font-family: myLatoLight;
+    font-weight: bold;
+
+
+}
+.labelForm{
+    color: white;
+    line-height: 1.25em;
+    margin-top: 3%;
+    font-family: myLatoLight;
+    font-weight: bold;
+}
+.inputGroup{
+    width: 100%;
+}
+#inputEmail{
+    width: 90%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    background-color: #292929;
+    border: 0px;
+    color: #9b9b9b;
+}
+
+#inputPassword{
+    width: 90%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    background-color: #292929;
+    border: 0px;
+    color: #9b9b9b;
+}
+#inputUsername{
+    width: 90%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    background-color: #292929;
+    border: 0px;
+    color: #9b9b9b;
+}
+#inputPasswordConfirmation{
+    width: 90%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    background-color: #292929;
+    border: 0px;
+    color: #9b9b9b;
+}
+.inputGroup{
+    margin-top: 5%;
+}
+.inputGroupEmail{
+    margin-top: 4%;
+}
+.inputGroup input:focus, .inputGroupEmail input:focus{
+    outline:0px !important;
+}
+.buttonSignUp{
+    background-color: #F05A41;
+    color: white;
+    font-family: myLatoRegular;
+    font-weight: bold;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: 2px solid;
+    font-size: 14px;
+    float: left;
+    width: 42%;
+    margin-top: 5%;
+}
+.buttonSignUp:hover{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+@font-face {
+    font-family: myLatoRegular;
+    src: url(Lato-Regular.ttf);
+}
+@font-face {
+    font-family: myLatoLight;
+    src: url(Lato-Light.ttf);
+}
