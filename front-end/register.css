@@ -6,7 +6,7 @@
 .header{
     color: white;
     line-height: 1.25em;
-    font-size: 70px;
+    font-size: 60px;
     font-family: myLatoLight;
     font-weight: bold;
     opacity: 0.9;
@@ -26,9 +26,13 @@
     font-size: 14px;
     float: left;
     width: 90%;
-    margin-left: 1.5%;
+
+
+}
+.groupButton{
     margin-top: 8%;
 }
+
 .buttonTw{
     background-color: #2D7DDC;
     color: white;
@@ -39,12 +43,12 @@
     text-align: center;
     padding-left: 2%;
     padding-right: 2%;
-    margin-left: 3%;
+
     border: 0px;
     font-size: 15px;
     float: left;
     width: 90%;
-    margin-left: 1.5%;
+
     margin-top: 8%;
 }
 .buttonTw:hover{
@@ -58,7 +62,7 @@
 .anotherAcc{
     color: white;
     line-height: 1.25em;
-    margin-top: 33.5%;
+
     font-family: myLatoLight;
     font-weight: bold;
 
@@ -72,7 +76,7 @@
     font-weight: bold;
 }
 .inputGroup{
-    width: 100%;
+    margin-top: 8%;
 }
 #inputEmail{
     width: 90%;
@@ -111,9 +115,7 @@
     border: 0px;
     color: #9b9b9b;
 }
-.inputGroup{
-    margin-top: 5%;
-}
+
 .inputGroupEmail{
     margin-top: 4%;
 }
