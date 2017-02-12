@@ -26,20 +26,24 @@ body {
   	font-weight: bold;
 }
 
-#verticalNav ul li {
+#horizontalNav ul li {
 	height: 61px;
 	padding: 20px 17px;
 }
 
-#verticalNav ul li a {
+#horizontalNav ul li:last-child {
+	padding: 20px 0px 20px 17px;
+}
+
+#horizontalNav ul li a {
 	padding: 0px;
 }
 
-#verticalNav ul li:nth-child(5) a {
+#horizontalNav ul li:nth-child(5) a {
 	bottom: 5px;
 }
 
-#verticalNav input{
+#horizontalNav input{
 	background-color: #f05a41;
 	border: 1px solid #f05a41;
 	color: white;
@@ -49,7 +53,7 @@ body {
 }
 
 #horizontalCategory {
-	background-color: #474747;
+	background-color: #292929;
 	height: 45px;
 	border: 1px solid #9b9b9b;
 	text-align: center;
@@ -68,7 +72,6 @@ body {
 	letter-spacing: 0.2em;
 	font-weight: bold;
 	text-transform: uppercase;
-
 }
 
 #horizontalCategory li:hover {
@@ -76,13 +79,14 @@ body {
 }
 
 #horizontalCategory ul li:first-child a { color: white; }
-#horizontalCategory ul li:nth-child(2) a { color: #f05a41}
+#horizontalCategory ul li:nth-child(2) a { color: #f05a41; }
 #horizontalCategory ul li:nth-child(3) a { color: #89ad3f; }
 #horizontalCategory ul li:nth-child(4) a { color: #e8af22; }
 #horizontalCategory ul li:nth-child(5) a { color: #7d4a8d; }
 #horizontalCategory ul li:last-child a { color: #3572c8; }
 
 #verticalCategory div {
+	cursor: pointer;
 	color: white;
 	height: 40px;
 	text-align: center;
@@ -93,22 +97,24 @@ body {
 	font-size: 1.3em;
 }
 
-#verticalCategory a:first-child div { background-color: #474747; }
+#verticalCategory a:hover {
+	text-decoration: none;
+} 
+
+#verticalCategory a:first-child div { background-color: #292929; }
 #verticalCategory a:nth-child(2) div { background-color: #f05a41}
 #verticalCategory a:nth-child(3) div { background-color: #89ad3f; }
 #verticalCategory a:nth-child(4) div { background-color: #e8af22; }
 #verticalCategory a:nth-child(5) div { background-color: #7d4a8d; }
 #verticalCategory a:last-child div { background-color: #3572c8; }
 
-/*
+
 #newsBackground {
 	height: 380px;
 	background-color: #1b1a18;
 }
 
 #news{
-	width: 1400px;
-	margin: 0 auto;
 	height: 100%;
 	background-image: url("background.jpg");
 	background-size: cover;
@@ -116,6 +122,104 @@ body {
     background-position: center center; 
 }
 
+#downloadTheApp {
+	background-color: #1b1a18;
+	height: 420px;
+	color: white;
+	text-align: center;
+	padding-top: 45px;
+}
+
+#downloadTheApp h1 {
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#whereToDownload > div {
+	height: 315px;
+	background-size: contain;
+	background-repeat:  no-repeat;
+	background-position: center center;
+}
+
+#whereToDownload div:first-child {
+	background-image: url("appstore.png");
+}
+
+#whereToDownload div:nth-child(2) {
+	background-image: url("center.png");
+}
+
+#whereToDownload div:last-child {
+	background-image: url("googleplay.png");
+}
+
+hr {
+	background-color: black;
+	height: 2px;
+}
+
+#recentlyReviewed {
+	height: 85vh;
+	text-align: center;
+}
+
+footer {
+	height: 300px;
+	background-color: #292929;
+	color: white;
+}
+
+#signUp input {
+	float: left;
+}
+
+#signUp p {
+	font-size: 1.3em;
+}
+
+footer #signUp input{
+	padding: 7px 15px;
+	color: black;
+	font-size: 2em;
+	border: 2px solid white;
+}
+
+footer #signUp input[type="button"] {
+	color: white;
+	background-color: #f05a41;
+	border: 2px solid #f05a41;
+	margin-bottom: 25px;
+}
+
+footer #signUp input[type="button"]:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid white;
+}
+
+#followUS {
+	padding: 0px;
+}
+
+#followUs a {
+	font-size: 2em;
+	color: #f05a41;
+}
+
+#followUs a:hover i:first-child {
+	color: white;
+}
+
+#followUs a:hover i:last-child {
+	color: #f05a41;
+}
+
+#bigFooter > div{
+	padding: 30px 0px;
+}
+
+/*
 hr{
 	background-color: black !important;
 	color: black !important;

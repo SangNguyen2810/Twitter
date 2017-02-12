@@ -16,27 +16,10 @@
 <body>
     <main>
         <header>
-            <!-- <div class="row">
-            <div id="logo">
-                <a><img src='logo.png'></a>
-            </div>
-            <div id="nav">
-                <ul>
-                    <li><a>Recommend</a></li>
-                    <li><a>Learn</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Sign in</a></li>
-                    <li>
-                    	<a><input type="button" value="Register"></a>
-                    </li>
-                    <li><i class="fa fa-search"></i></li>
-                    <li><i class="fa fa-user-plus"></i></li>
-                </ul>
-            </div> -->
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#verticalNav">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#horizontalNav">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -46,7 +29,7 @@
                             <img src="logo.png">
                         </a>
                     </div>
-                    <div class="collapse navbar-collapse" id="verticalNav">
+                    <div class="collapse navbar-collapse" id="horizontalNav">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#recommend">Recommend</a></li>
                             <li><a href="#learn">Learn</a></li>
@@ -64,16 +47,27 @@
                 </div>
             </nav>
         </header>
-        <div container-fluid>
-        	<div id="verticalCategory" class="visible-xs">
-                <a><div>All Spirits</div></a>
-                <a><div>Whiskey</div></a>
-                <a><div>Tequila/Mezcal</div></a>
-                <a><div>Rum</div></a>
-                <a><div>Brandy</div></a>
-                <a><div>Gin</div></a>
+        <div>
+            <div id="verticalCategory" class="visible-xs">
+                <a>
+                    <div>All Spirits</div>
+                </a>
+                <a>
+                    <div>Whiskey</div>
+                </a>
+                <a>
+                    <div>Tequila/Mezcal</div>
+                </a>
+                <a>
+                    <div>Rum</div>
+                </a>
+                <a>
+                    <div>Brandy</div>
+                </a>
+                <a>
+                    <div>Gin</div>
+                </a>
             </div>
-
             <div id="horizontalCategory" class="hidden-xs">
                 <ul>
                     <li><a>All Spirits</a></li>
@@ -85,11 +79,89 @@
                 </ul>
             </div>
         </div>
-        <!-- <div id="newsBackground">
-        	<div id="news">
-        		
-        	</div>
-        </div> -->
+        <div id="newsBackground">
+            <div id="news" class="container">
+            </div>
+        </div>
+        <hr>
+        <div id="recentlyReviewed">
+            <h1>RECENTLY REVIEWED</h1>
+        </div>
+        <div id="downloadTheApp">
+            <div class="container">
+                <h1>DOWNLOAD THE APP</h1>
+            </div>
+            <div class="container">
+                <div class="row" id="whereToDownload">
+                    <div class="col-xs-5 col-sm-3 col-md-2">
+                    </div>
+                    <div class="col-md-6 col-md-offset-1 hidden-sm hidden-xs">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-2 col-xs-offset-1 col-sm-offset-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="visible-xs visible-sm">
+            <div id="signUp" class="col-xs-12">
+                <h4>SIGN UP FOR THE DISTILLER NEWSLETTER</h4>
+                <input type="text" placeholder="YOUR EMAIL">
+                <input type="button" value="SIGN UP">
+            </div>
+            <div id="followUs" class="col-xs-12">
+                <h4>FOLLOW US</h4>
+                <a><span class="fa-stack fa-lg">
+  					<i class="fa fa-circle fa-stack-2x"></i>
+  					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span></a>
+                <a><span class="fa-stack fa-lg">
+  					<i class="fa fa-circle fa-stack-2x"></i>
+  					<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				</span></a>
+                <a><span class="fa-stack fa-lg">
+  					<i class="fa fa-circle fa-stack-2x"></i>
+  					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span></a>
+            </div>
+        </footer>
+        <footer class="hidden-sm hidden-xs">
+            <div class="container">
+                <div class="row" id="bigFooter">
+                    <div id="aboutDistiller" class="col-md-2">
+                        <h5>About Distiller</h5>
+                        <h5>The Tasting Table</h5>
+                        <h5>Complete Spirits List</h5>
+                        <h5>Contact Us</h5>
+                        <h5>Submit For Review</h5>
+                        <h5>Jobs</h5>
+                        <h5>Frequently Asked Questions</h5>
+                        <h5>Privacy Policy</h5>
+                    </div>
+                    <div id="followUs" class="col-md-3 col-md-offset-1">
+                        <h4>FOLLOW US</h4>
+                        <a><span class="fa-stack fa-lg ">
+  							<i class="fa fa-circle fa-stack-2x "></i>
+  							<i class="fa fa-twitter fa-stack-1x fa-inverse "></i>
+						</span></a>
+                        <a><span class="fa-stack fa-lg ">
+  							<i class="fa fa-circle fa-stack-2x "></i>
+  							<i class="fa fa-facebook fa-stack-1x fa-inverse "></i>
+						</span></a>
+                        <a><span class="fa-stack fa-lg ">
+  							<i class="fa fa-circle fa-stack-2x "></i>
+  							<i class="fa fa-instagram fa-stack-1x fa-inverse "></i>
+						</span></a>
+                    </div>
+                    <div id="signUp" class="col-md-5 col-md-offset-1 container">
+                        <h4>NEWSLETTER</h4>
+                        <p>Sign up for the Distiller Newsletter for new bottle & feature updates</p>
+                        <input type="text" placeholder="YOUR EMAIL" class="col-md-8">
+                        <input type="button" value="SIGN UP" class="col-md-4">
+                        <p>To learn more about responsible consumption, please visit <a>Foundation For Advancing Alcohol Responsibility.</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 
