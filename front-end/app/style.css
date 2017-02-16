@@ -149,7 +149,7 @@ body {
 
 #news {
     height: 100%;
-    background-image: url("background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -176,15 +176,15 @@ body {
 }
 
 #whereToDownload div:first-child {
-    background-image: url("appstore.png");
+    background-image: url("../images/appstore.png");
 }
 
 #whereToDownload div:nth-child(2) {
-    background-image: url("center.png");
+    background-image: url("../images/center.png");
 }
 
 #whereToDownload div:last-child {
-    background-image: url("googleplay.png");
+    background-image: url("../images/googleplay.png");
 }
 
 hr {
