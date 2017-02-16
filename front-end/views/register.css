@@ -3,7 +3,7 @@
     height: 150vh;
 
 }
-.header{
+.headerRegister{
     color: white;
     line-height: 1.25em;
     font-size: 60px;
@@ -12,7 +12,7 @@
     opacity: 0.9;
 
 }
-.buttonFb{
+.buttonFbRegister{
     background-color: #2e41ca;
     color: white;
     font-family: Arial;
@@ -23,7 +23,7 @@
     padding-left: 2%;
     padding-right: 2%;
     border: 0px;
-    font-size: 1em;
+    font-size: 15px;
     float: left;
     width: 90%;
 
@@ -33,7 +33,7 @@
     margin-top: 8%;
 }
 
-.buttonTw{
+.buttonTwRegister{
     background-color: #2D7DDC;
     color: white;
     font-family: Arial;
@@ -51,11 +51,11 @@
 
     margin-top: 8%;
 }
-.buttonTw:hover{
+.buttonTwRegister:hover{
     color: #2D7DDC;
     background-color: white;
 }
-.buttonFb:hover{
+.buttonFbRegister:hover{
     color: #2e41ca;
     background-color: white;
 }
@@ -65,7 +65,7 @@
 
     font-family: myLatoLight;
     font-weight: bold;
-
+    margin:0px;
 
 }
 .labelForm{
@@ -75,9 +75,7 @@
     font-family: myLatoLight;
     font-weight: bold;
 }
-.inputGroup{
-    margin-top: 8%;
-}
+
 #inputEmail{
     width: 90%;
     padding-top: 2.5%;
@@ -116,10 +114,10 @@
     color: #9b9b9b;
 }
 
-.inputGroupEmail{
+.inputGroupEmailRegister{
     margin-top: 4%;
 }
-.inputGroup input:focus, .inputGroupEmail input:focus{
+.inputGroupRegister input:focus, .inputGroupEmailRegister input:focus{
     outline:0px !important;
 }
 .buttonSignUp{
